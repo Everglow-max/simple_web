@@ -1,0 +1,648 @@
+/*头部广告 start*/
+.header {
+    width: 100%;
+    height: 120px;
+}
+
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 25%;
+}
+
+/*头部广告 end*/
+
+/*头部导航栏 start*/
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.wrap {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.nav .wrap .wrap-left {
+    float: left;
+
+}
+
+.nav .wrap .wrap-right {
+    float: right;
+}
+
+.nav .wrap li {
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+.nav.wrap li span {
+    color: #424242;
+    margin: 0 3.6px;
+}
+
+.nav a {
+    color: #b0b0b0;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.nav .wrap .wrap-right .buy .iconfont img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.nav .wrap .wrap-left li .download {
+    width: 120px;
+    height: 148px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px #aaa;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -62px;
+    overflow: hidden;
+    text-align: center;
+    display: none;
+
+}
+
+.nav .wrap .wrap-left li:hover .download {
+    display: block;
+    z-index: 1000;
+}
+
+.nav .wrap .wrap-left li .download img {
+    width: 90px;
+    height: 90px;
+    margin: 5px 10px;
+}
+
+.nav .wrap .wrap-left li .stri {
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -8px;
+    display: none;
+}
+
+.nav .wrap .wrap-left li:hover>.stri {
+    display: block;
+}
+
+.nav .wrap .wrap-right .buy {
+    width: 120px;
+    height: 40px;
+    background-color: #424242;
+    margin-left: 25px;
+}
+
+.nav .wrap .wrap-right .buy:hover {
+    background-color: #fff;
+
+}
+
+.nav .wrap .wrap-right .buy:hover>a {
+    color: #ff6700;
+    z-index: 1000;
+}
+
+.nav .wrap .wrap-right .buy i {
+    font-style: normal;
+    margin-left: 3px;
+
+}
+
+.buy-box {
+    width: 316px;
+    height: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    position: absolute;
+    top: 40px;
+    right: 0;
+    text-align: center;
+    color: #424242;
+    overflow: hidden;
+    line-height: 100px;
+    display: none;
+    z-index: 1000;
+}
+
+.buy:hover .buy-box {
+    display: block;
+    height: 100px;
+}
+
+/*头部导航栏 end*/
+
+/*白色导航 start*/
+.white-nav {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.white-nav .wrap .logo {
+    float: left;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    margin-top: 22.5px;
+
+    border-radius: 20px;
+}
+
+.white-nav .wrap .logo>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s;
+
+}
+
+.white-nav .wrap .logo>.mi-behind {
+    left: -55px;
+    display: none;
+}
+
+.white-nav .wrap .logo>.mi-show {
+    left: 0px;
+
+}
+
+
+.white-nav .wrap .logo:hover>.mi-behind {
+    left: 0px;
+    display: block;
+}
+
+.white-nav.wrap.logo:hover>.mi-show {
+    left: -55px;
+    display: none;
+}
+
+.white-nav .nav-bar {
+    float: left;
+    width: 875px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.white-nav .search {
+    float: right;
+    width: 296px;
+    height: 100px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.white-nav .nav-bar li {
+    float: left;
+
+    margin-right: 10px;
+}
+
+.white-nav .nav-bar ul li img {
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.white-nav .search input {
+
+    width: 244px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    margin-top: 25px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-right: 0;
+}
+
+
+.white-nav .search button {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    margin-top: 25px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.white-nav .search img {
+
+    width: 24px;
+    height: 50px;
+    vertical-align: middle;
+
+}
+
+.white-nav .nav-bar ul li a {
+    color: #333;
+    padding: 0 10px;
+}
+
+.white-nav .nav-bar ul li a:hover {
+    color: #ff6700;
+}
+
+/*白色导航滑动门 start*/
+.white-nav .nav-bar ul li .nav-list {
+    width: 100%;
+    height: 229px;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .18);
+    position: absolute;
+    left: 0;
+    top: 100px;
+    display: none;
+}
+
+.white-nav .nav-bar ul li:hover .nav-list {
+    display: block;
+    transition: all 1s;
+    z-index: 999;
+}
+
+.white-nav .nav-bar ul li .nav-list li {
+    line-height: normal;
+}
+
+.nav-list .name {
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+}
+
+.nav-list .price {
+    font-size: 12px;
+    text-align: center;
+    color: #ff6700;
+}
+
+.nav-list li {
+    border-right: 1px solid #eee;
+}
+
+.nav-list .wrap .img-box {
+    margin: 15px auto;
+}
+
+.nav-list .wrap .img-box img {
+    width: 160px;
+    height: 110px;
+    margin: 0 auto;
+
+}
+
+.nav-list .wrap .name {
+    margin: 5px auto;
+}
+
+/*白色导航滑动门 end*/
+
+/*白色导航 end*/
+
+/*Banner start*/
+.banner {
+    width: 100%;
+    height: 460px;
+    z-index: 100;
+}
+
+.banner img {
+    width: 100%;
+    height: 460px;
+}
+
+.banner .wrap {
+    position: relative;
+}
+
+.banner .wrap .slide {
+    width: 234px;
+    height: 460px;
+    padding: 20px 0;
+    background-color: rgba(105, 101, 101, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner .wrap .slide>ul>li {
+    height: 42px;
+    line-height: 42px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 14px;
+
+}
+
+.banner .wrap .slide>ul>li>a {
+    color: #fff;
+}
+
+.banner .wrap .slide>ul>li>a>i {
+    float: right;
+    padding-right: 20px;
+}
+
+.banner .wrap .slide>ul>li:hover {
+    background-color: #ff6700;
+    cursor: pointer;
+}
+
+/* 滑动门 start */
+
+.banner .wrap .slide-list {
+    width: 992px;
+    height: 460px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-left: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .18);
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 234px;
+    display: none;
+}
+
+.banner .wrap .slide>ul>li:hover>.slide-list {
+    display: block;
+    z-index: 999;
+}
+
+.banner .wrap .slide>ul>li>.slide-list img {
+    width: 50px;
+    height: 64px;
+    position: absolute;
+
+
+}
+
+.banner .wrap .slide>ul>li>.slide-list ul li {
+    position: relative;
+    padding: 10px 10px;
+    float: left;
+    width: 240px;
+    height: 76px;
+
+
+}
+
+.banner .wrap .slide>ul>li>.slide-list ul li span {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+
+
+}
+
+.banner .wrap .slide>ul>li>.slide-list ul li:hover a {
+    color: #ff6700;
+}
+
+.banner .wrap .slide>ul>li>.slide-list ul {
+    width: 100%;
+}
+
+
+/* 滑动门 end */
+
+/*Banner end*/
+
+/*广告 start*/
+.ad {
+    width: 100%;
+    height: 200px;
+    padding: 14px 0;
+
+    background-color: #fff;
+}
+
+.ad .wrap .ad-aside {
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+    float: left;
+}
+
+.ad .wrap .ad-aside li {
+    float: left;
+    width: 76px;
+    height: 82px;
+    padding-top: 18px;
+    text-align: center;
+
+    box-sizing: border-box;
+    opacity: 0.7;
+
+}
+
+.ad .wrap .ad-aside li:hover {
+    opacity: 1;
+}
+
+.ad .wrap .ad-aside i {
+    font-size: 24px;
+    margin-bottom: 4px;
+    display: block;
+    color: #fff;
+}
+
+.ad .wrap .ad-aside i img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.ad .wrap .ad-aside p {
+    color: #fff;
+}
+
+.ad .img {
+    float: left;
+    width: 320px;
+    height: 170px;
+    margin-left: 10px;
+}
+
+.ad.img img {
+    width: 100%;
+
+}
+
+/*广告 end*/
+
+/*主体内容 start*/
+
+/*手机 start*/
+.content {
+    width: 100%;
+
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 4px 0 12px 0;
+
+}
+
+.title {
+    text-align: left;
+    color: #333;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+}
+
+.phone-box {
+    width: 100%;
+    height: 614px;
+}
+
+.phone-box-left img {
+    float: left;
+    width: 234px;
+    height: 614px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.phone-box-right {
+    float: left;
+    width: 992px;
+    height: 614px;
+    text-align: center;
+}
+
+.item {
+    margin: 0 0 14px 14px;
+    width: 234px;
+    height: 300px;
+    background-color: #fff;
+    float: left;
+    padding: 20px 0 90px 0;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.phone-box-left img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.item .item-name {
+    text-align: center;
+    width: 214px;
+    height: 21px;
+    color: #333;
+    line-height: 21px;
+
+}
+
+.item .item-describe {
+    width: 214px;
+    height: 18px;
+    color: #b0b0b0;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+
+.item .item-price {
+    color: #ff6700;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.second_ad {
+    width: 100%;
+    height: 120px;
+    margin: 22px 0 0 0;
+}
+
+.video-container {
+    width: 1226px;
+    height: 285px;
+    margin: 20px 0;
+    background-color: #f1f1f1;
+}
+
+/*手机 end*/
+
+/*家电模块 start*/
+.elc-box {
+    width: 100%;
+    height: 614px;
+}
+
+.elc-box .elc-item {
+    padding: 0;
+    margin-left: 0;
+}
+
+.item-last {
+    width: 234px;
+    height: 300px;
+    float: left;
+    margin-left: 14px;
+}
+
+.item-last div {
+    width: 234px;
+    height: 143px;
+    background-color: #fff;
+    text-align: center;
+    transition: all 0.2s linear;
+}
+
+.item-last>div:first-child {
+    margin-bottom: 14px;
+}
+
+.item-last>div:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+/*家电模块 end*/
+
+/*主体内容 end*/
